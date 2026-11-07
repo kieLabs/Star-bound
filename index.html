@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#05070d">
+<meta name="description" content="Starbound Puzzle - an endless physics adventure. Every level generates a new puzzle and a new way to think.">
+<title>STARBOUND PUZZLE — GamerKie</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="game-shell">
+<header class="topbar"><div class="brand"><span class="brand-mark">G</span><span>GAMER<span class="cyan">KIE</span></span></div><div class="level-label">SECTOR <b id="levelNo">01</b></div><button id="pauseBtn" class="icon-btn" aria-label="Pause">Ⅱ</button></header>
+<div class="hud"><div><small>MISSION</small><strong id="mission">Reach the portal</strong></div><div class="stats"><span>✦ <b id="shards">0</b></span><span>BEST <b id="best">1</b></span></div></div>
+<main id="stage-wrap"><canvas id="game" aria-label="Starbound Puzzle game"></canvas><div id="overlay" class="overlay"><div class="panel"><div class="eyebrow">GAMERKIE ORIGINAL</div><h1>STARBOUND<br><em>PUZZLE</em></h1><p>One hero. Infinite worlds. A different puzzle every time.</p><button id="startBtn" class="primary">START ADVENTURE</button><div class="hint">Move · Jump · Interact · Think</div></div></div><div id="toast" class="toast"></div></main>
+<div class="controls"><div class="move-controls"><button data-key="left" aria-label="Move left">◀</button><button data-key="right" aria-label="Move right">▶</button></div><div class="action-controls"><button data-key="interact" class="interact">USE</button><button data-key="jump" class="jump">JUMP</button></div></div>
+<footer><span>WASD / ARROWS · SPACE · E</span><span>GAMERKIE © 2026</span></footer>
+</div>
+<script src="js/level-core.js"></script><script src="js/game.js"></script>
+</body></html>
